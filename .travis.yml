@@ -43,6 +43,8 @@ install:
 #  - tar zxf travis/configs/twidere_private_config.tar.gz
 
 before_script:
+  - mkdir -p "$ANDROID_HOME/licenses"
+  - cp ./sdk-licenses/ "$ANDROID_HOME/licenses/"
   # Validate if patches work
 #  - patch --dry-run -d twidere < twidere/patches/remove_closed_source_dependencies.patch
 
