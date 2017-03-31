@@ -10,7 +10,7 @@ android:
     # The SDK version used to compile your project
     - android-25
     # Additional components
-    - extra-android-support_repository
+    - extra-android-constraint-layout
 #    - extra-google-google_play_services
 #    - extra-google-m2repository
 #    - extra-android-m2repository
