@@ -10,8 +10,8 @@ android:
     # The SDK version used to compile your project
     - android-25
     # Additional components
-     - extra-google-m2repository
-     - extras-m2repository-com-android-support-constraint-constraint-layout
+    - extra-google-m2repository
+    - extras-m2repository-com-android-support-constraint-constraint-layout
 #    - constraint-layout-solver;1.0.2
 #    - extra-google-google_play_services
 #    - extra-android-m2repository
