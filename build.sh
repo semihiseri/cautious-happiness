@@ -12,6 +12,8 @@ unzip tools_r25.2.3-linux.zip
 export LC_CTYPE=C.UTF-8
 export ANDROID_HOME=/sdk/
 
+cd $BUILD_DIR
+
 ./gradlew
 ./gradlew assemble
 
