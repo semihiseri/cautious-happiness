@@ -3,4 +3,4 @@
 mkdir /home/semih
 cd /home/semih
 pwd
-echo "kedikedi"
+echo "kedi kedi"
