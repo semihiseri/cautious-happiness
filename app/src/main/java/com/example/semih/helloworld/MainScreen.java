@@ -12,7 +12,7 @@ public class MainScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(s/*vedInstanceSt*/ate);
         setContentView(R.layout.activity_main_screen);
 
     }
