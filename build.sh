@@ -15,7 +15,7 @@ export ANDROID_HOME=/sdk/
 cd $BUILD_DIR
 
 ./gradlew
+./gradlew test
 ./gradlew assemble
-
 
 echo "Success?"
