@@ -22,7 +22,7 @@ public class ExampleUnitTest {
 
     @Test
     public void subtraction_isCorrect() throws Error {
-        assertEquals(4, 2 - 2);
+        assertEquals(0, 2 - 2);
     }
 
     @Test
