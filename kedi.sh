@@ -2,6 +2,6 @@
 
 KEDI=$RANDOM 
 echo $KEDI
-sudo docker run --name $KEDI ubuntu /bin/bash -c "apt-get update ; apt-get install -y git ; git clone http://github.com/semihiseri/cautious-happiness ; cd cautious-happiness ; chmod 777 build.sh ; ./build.sh"
-sudo docker cp $KEDI:/cautious-happiness . 
+
+sudo docker run -v $(pwd):/builddir --name $KEDI ubuntu /bin/bash -c "/builddir/build.sh"
 sudo docker rm $KEDI
